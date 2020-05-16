@@ -4,7 +4,7 @@ import Home from "./components/Home";
 
 Vue.config.productionTip = false
 
-Vue.component('app-server-status', Home);
+Vue.component('app-servers', Home);
 
 new Vue({
   render: h => h(App),
