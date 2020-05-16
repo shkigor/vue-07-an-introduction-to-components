@@ -3,11 +3,11 @@
         <app-header></app-header>
         <hr>
         <div class="row">
-            <app-servers></app-servers>
+            <servers></servers>
             <app-server-details></app-server-details>
         </div>
         <hr>
-        <app-footer></app-footer>
+        <appFooter></appFooter>
     </div>
 </template>
 
@@ -19,9 +19,9 @@
 
     export default {
         components: {
-            'app-header': Header,
-            'app-footer': Footer,
-            'app-servers': Servers,
+            appHeader: Header,
+            appFooter: Footer,
+            Servers,
             'app-server-details': ServerDetails
         }
     }
